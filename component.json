@@ -1,0 +1,14 @@
+{
+  "name": "is-nan",
+  "repo": "KenanY/is-nan",
+  "description": "Is nan component",
+  "version": "1.0.0",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "twitter": "@kyild"
+}
