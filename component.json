@@ -4,7 +4,9 @@
   "description": "Is nan component",
   "version": "1.0.0",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "KenanY/is-number": "*"
+  },
   "development": {},
   "scripts": [
     "index.js"

@@ -1,10 +1,4 @@
-var numberClass = '[object Number]';
-var objectProto = Object.prototype;
-var toString = objectProto.toString;
-
-function isNumber(value) {
-  return typeof value == 'number' || toString.call(value) == numberClass;
-}
+var isNumber = require('is-number');
 
 /**
  * Checks if `value` is `NaN`.

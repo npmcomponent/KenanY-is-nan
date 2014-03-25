@@ -19,6 +19,9 @@
     "components": "component install --dev",
     "clean": "rm -fr build components"
   },
+  "dependencies": {
+    "is-number": "KenanY/is-number"
+  },
   "devDependencies": {
     "lodash.map": "^2.4.1",
     "tape": "^2.12.0"
