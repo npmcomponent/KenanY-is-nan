@@ -9,6 +9,8 @@ var isNumber = require('is-number');
  * @param {*} value The value to check.
  * @returns {boolean} Returns `true` if the `value` is `NaN`, else `false`.
  */
-module.exports = function(value) {
+function isNaN(value) {
   return isNumber(value) && value != +value;
 }
+
+module.exports = isNaN;
