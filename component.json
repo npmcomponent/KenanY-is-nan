@@ -2,7 +2,7 @@
   "name": "is-nan",
   "repo": "KenanY/is-nan",
   "description": "Is nan component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [],
   "dependencies": {
     "KenanY/is-number": "*"
