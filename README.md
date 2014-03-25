@@ -2,7 +2,7 @@
 
 Lo-Dash's `isNaN` function as a component.
 
-[![browser support](https://ci.testling.com/KenanY/is-nan.png)](https://ci.testling.com/$KenanY/is-nan)
+[![browser support](https://ci.testling.com/KenanY/is-nan.png)](https://ci.testling.com/KenanY/is-nan)
 
 ## Installation
 
