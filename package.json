@@ -14,14 +14,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -R spec --require should",
+    "test": "tape test/index.js",
     "build": "component build --dev",
     "components": "component install --dev",
     "clean": "rm -fr build components"
   },
   "devDependencies": {
-    "mocha": "^1.13.0",
-    "should": "^1.3.0"
+    "lodash.map": "^2.4.1",
+    "tape": "^2.12.0"
   },
   "component": {
     "scripts": {
