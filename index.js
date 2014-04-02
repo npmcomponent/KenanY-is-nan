@@ -1,4 +1,4 @@
-var isNumber = require('is-number');
+var isNumber = require('KenanY-is-number');
 
 /**
  * Checks if `value` is `NaN`.

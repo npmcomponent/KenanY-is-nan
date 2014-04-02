@@ -1,47 +1,10 @@
 {
-  "name": "is-nan-component",
+  "name": "kenany-is-nan",
+  "description": "Is nan component",
   "version": "1.0.1",
-  "description": "Is NaN component",
-  "repository": "KenanY/is-nan",
-  "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "LICENSE.txt"
-  ],
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "tape test/index.js",
-    "build": "component build --dev",
-    "components": "component install --dev",
-    "clean": "rm -fr build components"
-  },
+  "keywords": [],
   "dependencies": {
-    "is-number": "KenanY/is-number"
+    "KenanY-is-number": "git://github.com/npmcomponent/KenanY-is-number.git"
   },
-  "devDependencies": {
-    "lodash.map": "^2.4.1",
-    "tape": "^2.12.0"
-  },
-  "component": {
-    "scripts": {
-      "is-nan/index.js": "index.js"
-    }
-  },
-  "private": true,
-  "testling": {
-    "files": "test/index.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/4..latest",
-      "firefox/3..latest",
-      "safari/5.1..latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6"
-    ]
-  }
+  "license": "MIT"
 }
